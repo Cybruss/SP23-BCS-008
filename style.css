@@ -1,0 +1,94 @@
+div{
+    display: inline;
+}
+
+header{
+    border:2px solid black;
+}
+
+header img{
+    width: 7%;
+    height: auto;
+    margin-left: 15px;
+}
+
+header h1{
+    display: inline;
+    position: relative;
+    vertical-align:top;
+    /* top: 0px; */
+    margin-left: 50px ;
+    margin-top: 10px;
+}
+
+
+nav{
+    float: right;
+    margin-right: 15px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/* body except footer */
+.side{
+    border: 2px solid red;
+    /* display:flex; */
+    display: inline-block;
+    /* margin-left: 15px; */
+    margin-top: 5px;
+    width:30%;
+    height: 100vh;
+    float: left;
+}
+
+.right_top{
+    border: 2px solid red;
+    display:inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 68%;
+    height: 50vh;
+    float: right;
+    text-align: center;
+}
+
+.right_bottom{
+    border: 2px solid red;
+    display:inline-block;
+    margin-left: 5px;
+    /* margin-top: 5px; */
+    width: 68%;
+    height: 50vh;
+    float: right;
+    /* overflow: auto; */
+    text-align: center;
+    
+}
+
+.footer{
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.side div{
+    /* display: flex; */
+    display: inline-block;
+    border: 2px solid black;
+    width: 80%;
+    height: 20vh;
+    margin: 10% 7% auto;
+    text-align: center;
+
+    /* align-items: center;
+    justify-content: center; */
+}
+
+
+
